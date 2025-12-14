@@ -11,6 +11,14 @@ Custom libinput quirk file:
 MatchName=Elan TrackPoint
 MatchUdevType=pointingstick
 AttrTrackpointMultiplier=2.5
+AttrPressureRange=10:20
 ```
 
-To view currently applied
+AttrTrackpointMultiplier : acceleration of point (higher is faster)
+AttrPressureRange: pressure threshold (minimum:maximum)
+
+To view currently applied: 
+Elan trackpoint: event7
+```bash
+libinput quirks list /dev/input/event7
+```
