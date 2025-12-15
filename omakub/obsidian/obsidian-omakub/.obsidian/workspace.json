@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Fixing Trackpoint"
             }
+          },
+          {
+            "id": "795fe462e30f4ac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jellyfin directory permissions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jellyfin directory permissions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,10 +200,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "2f8363bae0e1fcf8",
+  "active": "795fe462e30f4ac8",
   "lastOpenFiles": [
+    "Fixing Trackpoint/Fixing Trackpoint.md",
+    "Jellyfin directory permissions.md",
     "Fixing Trackpoint",
-    "Welcome.md",
-    "Fixing Trackpoint/Fixing Trackpoint.md"
+    "Welcome.md"
   ]
 }
