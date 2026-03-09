@@ -37,3 +37,11 @@ Seat:                    seat0, default
 Capabilities:            pointer
 ```
 
+Updated quirk file:
+```
+[Elan TrackPoint Custom]
+MatchName=Elan TrackPoint
+MatchUdevType=pointingstick
+AttrTrackpointMultiplier=3.5
+AttrPressureRange=25:10
+```
